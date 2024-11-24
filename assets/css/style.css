@@ -1,0 +1,142 @@
+* {
+    font-family: 'Young Serif', sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+
+@media screen and (max-width: 700px) {
+    .container {
+        margin: 0;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+html {
+    background-color: #f3e5d8;
+    justify-content: center;
+}
+
+
+
+
+.container {
+    display: flexbox;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: hsl(0, 0%, 100%);
+    width: 600px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 10px;
+    font-weight: 100;
+}
+
+.container img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.mark{
+    padding: 5px 10px;
+}
+
+.preparoback {
+    background-color: #FFF6FB;
+    padding: 5px;
+    gap: 5px;
+    border-radius: 10px;
+
+}
+
+.preparo{
+    padding: 2px 10px;
+}
+.container p {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+}
+
+.container nav li {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+}
+
+.container nav ol {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+}
+
+.mark::marker {
+    color: hsl(332, 51%, 32%);
+    
+}
+
+.ingredientes::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+.ingredientes{
+    padding: 4px 5px;
+}
+
+.instrucoes{
+    padding: 4px 5px;
+}
+
+li::marker {
+    font-weight: bold;
+}
+
+.instrucoes::marker {
+    color: hsl(14, 45%, 36%);
+    padding: 10px;
+}
+
+
+table {
+    text-align: left;
+    border-collapse: separate;
+    width: 100%;
+    border-spacing: 0;
+
+}
+
+.container table th {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    border-bottom: 1px solid lightgray;
+
+}
+
+.container table td {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+    border-bottom: 1px solid lightgray;
+
+}
+
+h3 {
+    color: hsl(332, 51%, 32%);
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+
+}
+
+h2:not(:first-of-type) {
+    border-top: 1px solid lightgray;
+    margin: 1.5rem 0 0 0;
+    padding: 1.5rem 0 1rem 0;
+}
+
